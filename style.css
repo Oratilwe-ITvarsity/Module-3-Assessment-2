@@ -1,0 +1,835 @@
+html {
+    height: 100%;
+}
+
+body {
+    font-family: sans-serif;
+    
+    margin: 0;
+    padding: 0;
+    
+    height: 100%;
+}
+
+.body-home {
+    background-image: url(images/background%2001.jpg);
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/*=========== HEADER ==========*/
+
+.header {
+    background-color: goldenrod;
+    
+    width: 100%;
+    height: 60px;
+    top: 0;
+    
+    position: fixed;
+    overflow: hidden;
+    
+    text-align: center;
+}
+
+.header i {
+    float: left;
+    padding: 17px 0px 0px 17px;
+    color: white;
+}
+
+.header img {
+    width: 150px;
+    padding-top: 14px;
+    padding-right:24px; 
+}
+
+/*=========== HOME PAGE ==========*/
+
+#home-logo-img {
+    width: 150px;
+    display: block;
+    margin: auto;
+    padding: 25px 10px 10px 10px;
+    
+}
+
+/*===== HOME PAGE MENU =====*/
+
+.home-menu-item {
+    text-decoration: none;
+    text-transform: uppercase;
+    
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    border: 5px solid white;
+    
+    display: block;
+    margin: auto;
+    margin-bottom: 10px;
+    width: 40%;
+}
+
+/*=========== STARTERS PAGE ==========*/
+
+#starters {
+    padding-top: 50px;
+}
+
+/*===== STARTERS PAGE MENU =====*/
+
+.starters-list a {
+    text-decoration: none;
+}
+
+.starters-list-item {
+    border: 5px solid #1a1a1a;
+    margin: 10px;
+}
+
+.starters-list-item h1 {
+    font-weight: bold;
+    font-size: 20px;
+    color: #1a1a1a;
+    padding-left: 10px;
+}
+
+.starters-list-item i {
+    float: right;
+    color: #1a1a1a;
+    padding-right: 20px;
+}
+
+.starters-list-item p {
+    font-size: 15px;
+    font-style: italic;
+    color: #4d4d4d;
+    margin-top: -7px;
+    padding-left: 10px;
+}
+
+/*=========== MEALS PAGE ==========*/
+
+#meals {
+    padding-top: 50px;
+}
+
+/*===== MEALS PAGE MENU =====*/
+
+.meals-list a {
+    text-decoration: none;
+}
+
+.meals-list-item {
+    border: 5px solid #1a1a1a;
+    margin: 10px;
+}
+
+.meals-list-item h1 {
+    font-weight: bold;
+    font-size: 20px;
+    color: #1a1a1a;
+    padding-left: 10px;
+}
+
+.meals-list-item i {
+    float: right;
+    color: #1a1a1a;
+    padding-right: 20px;
+}
+
+.meals-list-item p {
+    font-size: 15px;
+    font-style: italic;
+    color: #4d4d4d;
+    margin-top: -7px;
+    padding-left: 10px;
+}
+
+/*=========== DRINKS PAGE ==========*/
+
+#drinks {
+    padding-top: 50px;
+}
+
+/*===== DRINKS PAGE MENU =====*/
+
+.drinks-list a {
+    text-decoration: none;
+}
+
+.drinks-list-item {
+    border: 5px solid #1a1a1a;
+    margin: 10px;
+}
+
+.drinks-list-item h1 {
+    font-weight: bold;
+    font-size: 20px;
+    color: #1a1a1a;
+    padding-left: 10px;
+}
+
+.drinks-list-item i {
+    float: right;
+    color: #1a1a1a;
+    padding-right: 20px;
+}
+
+.drinks-list-item p {
+    font-size: 15px;
+    font-style: italic;
+    color: #4d4d4d;
+    margin-top: -7px;
+    padding-left: 10px;
+}
+
+/*=========== DESERTS PAGE ==========*/
+
+#deserts {
+    padding-top: 50px;
+}
+
+/*===== DESERTS PAGE MENU =====*/
+
+.deserts-list a {
+    text-decoration: none;
+}
+
+.deserts-list-item {
+    border: 5px solid #1a1a1a;
+    margin: 10px;
+}
+
+.deserts-list-item h1 {
+    font-weight: bold;
+    font-size: 20px;
+    color: #1a1a1a;
+    padding-left: 10px;
+}
+
+.deserts-list-item i {
+    float: right;
+    color: #1a1a1a;
+    padding-right: 20px;
+}
+
+.deserts-list-item p {
+    font-size: 15px;
+    font-style: italic;
+    color: #4d4d4d;
+    margin-top: -7px;
+    padding-left: 10px;
+}
+
+/*=========== ANTIPASTO BREAD PAGE ==========*/
+
+.antipasto bread {
+    padding-top: 50px;
+}
+
+/*===== ANTIPASTO DETAILS =====*/
+
+.antipasto bread-details img {
+    width: 30%;
+}
+
+.antipasto bread-details h1 {
+    font-size: 25px;
+    text-align: center;
+    border: 5px solid #1a1a1a;
+    margin: 10px;
+    padding: 5px;
+}
+
+.antipasto bread-details h2 {
+    font-size: 20px;
+    text-align: center;
+    margin: 0;
+    margin-left: 10px;
+}
+
+.antipasto bread-details-info {
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.antipasto bread-details-info p {
+    font-size: 13px;
+    display: inline-block;
+}
+
+.antipasto bread-details-ingridients label {
+    line-height: 25px;
+    margin-left: 10px;
+}
+
+.antipasto bread li {
+    line-height: 25px;
+    margin-left: 10px;
+}
+
+/*=========== VEGETABLE GYOZA PAGE ==========*/
+
+.vegetable gyoza {
+    padding-top: 50px;
+}
+
+/*===== VEGETABLE GYOZA DETAILS =====*/
+
+.vegetable gyoza-details img {
+    width: 40%;
+}
+
+.vegetable gyoza-details h1 {
+    font-size: 25px;
+    text-align: center;
+    border: 5px solid #1a1a1a;
+    margin: 10px;
+    padding: 5px;
+}
+
+.vegetable gyoza-details h2 {
+    font-size: 20px;
+    text-align: center;
+    margin: 0;
+    margin-left: 10px;
+}
+
+.vegetable gyoza-details-info {
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.vegetable gyoza-details-info p {
+    font-size: 13px;
+    display: inline-block;
+}
+
+.vegetable gyoza-details-ingridients label {
+    line-height: 25px;
+    margin-left: 10px;
+}
+
+/*=========== CAPRESE salad PAGE ==========*/
+
+.caprese salad {
+    padding-top: 50px;
+}
+
+/*===== CAPRESE SALAD DETAILS =====*/
+
+.caprese salad-details img {
+    width: 20%;
+}
+
+.caprese salad-details h1 {
+    font-size: 25px;
+    text-align: center;
+    border: 5px solid #1a1a1a;
+    margin: 10px;
+    padding: 5px;
+}
+
+.caprese salad-details h2 {
+    font-size: 20px;
+    text-align: center;
+    margin: 0;
+    margin-left: 10px;
+}
+
+.caprese salad-details-info {
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.caprese salad-details-info p {
+    font-size: 13px;
+    display: inline-block;
+}
+
+.caprese salad-details-ingridients label {
+    line-height: 25px;
+    margin-left: 10px;
+}
+
+/*=========== JAMAICAN VEGGIE PATTY PAGE ==========*/
+
+.jamaican veggie patty {
+    padding-top: 50px;
+}
+
+/*===== JAMAICAN VEGGIE PATTY DETAILS =====*/
+
+.jamaican vegie patty-details img {
+    width: 20%;
+}
+
+.jamaican veggie patty-details h1 {
+    font-size: 25px;
+    text-align: center;
+    border: 5px solid #1a1a1a;
+    margin: 10px;
+    padding: 5px;
+}
+
+.jamaican veggie patty-details h2 {
+    font-size: 20px;
+    text-align: center;
+    margin: 0;
+    margin-left: 10px;
+}
+
+.jamaican veggie patty-details-info {
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.jamaican veggie patty-details-info p {
+    font-size: 13px;
+    display: inline-block;
+}
+
+.jamaican veggie patty-details-ingridients label {
+    line-height: 25px;
+    margin-left: 10px;
+}
+
+/*=========== SPAGHETTI BOLOGNESE PAGE ==========*/
+
+.spaghetti bolognese {
+    padding-top: 50px;
+}
+
+/*===== SPAGHETTI BOLOGNESE DETAILS =====*/
+
+.spaghetti bolognese-details img {
+    width: 40%;
+}
+
+.spaghetti bolognese-details h1 {
+    font-size: 25px;
+    text-align: center;
+    border: 5px solid #1a1a1a;
+    margin: 10px;
+    padding: 5px;
+}
+
+.spaghetti bolognese-details h2 {
+    font-size: 20px;
+    text-align: center;
+    margin: 0;
+    margin-left: 10px;
+}
+
+.spaghetti bolognese-details-info {
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.spaghetti bolognese-details-info p {
+    font-size: 13px;
+    display: inline-block;
+}
+
+.spaghetti bolognese-details-ingridients label {
+    line-height: 25px;
+    margin-left: 10px;
+}
+
+/*=========== RIBS & WINGS PAGE ==========*/
+
+.ribs & wings {
+    padding-top: 50px;
+}
+
+/*===== RIBS & WINGS DETAILS =====*/
+
+.ribs & wings-details img {
+    width: 40%;
+}
+
+.ribs & wings-details h1 {
+    font-size: 25px;
+    text-align: center;
+    border: 5px solid #1a1a1a;
+    margin: 10px;
+    padding: 5px;
+}
+
+.ribs & wings-details h2 {
+    font-size: 20px;
+    text-align: center;
+    margin: 0;
+    margin-left: 10px;
+}
+
+.ribs & wings-details-info {
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.ribs & wings-details-info p {
+    font-size: 13px;
+    display: inline-block;
+}
+
+.ribs & wings-details-ingridients label {
+    line-height: 25px;
+    margin-left: 10px;
+}
+
+
+/*=========== CALAMARI PAGE ==========*/
+
+.calamari {
+    padding-top: 50px;
+}
+
+/*===== CALAMARI DETAILS =====*/
+
+.calamari-details img {
+    width: 40%;
+}
+
+.calamari-details h1 {
+    font-size: 25px;
+    text-align: center;
+    border: 5px solid #1a1a1a;
+    margin: 10px;
+    padding: 5px;
+}
+
+.calamari-details h2 {
+    font-size: 20px;
+    text-align: center;
+    margin: 0;
+    margin-left: 10px;
+}
+
+.calaari-details-info {
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.calamari-details-info p {
+    font-size: 13px;
+    display: inline-block;
+}
+
+.calamari-details-ingridients label {
+    line-height: 25px;
+    margin-left: 10px;
+}
+
+/*=========== STEAK & CHIPS PAGE ==========*/
+
+.steak & chips {
+    padding-top: 50px;
+}
+
+/*===== STEAK & CHIPS DETAILS =====*/
+
+.steak & chips-details img {
+    width: 40%;
+}
+
+.steak & chips-details h1 {
+    font-size: 25px;
+    text-align: center;
+    border: 5px solid #1a1a1a;
+    margin: 10px;
+    padding: 5px;
+}
+
+.steak & chips-details h2 {
+    font-size: 20px;
+    text-align: center;
+    margin: 0;
+    margin-left: 10px;
+}
+
+.steak & chips-details-info {
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.steak & chips-details-info p {
+    font-size: 13px;
+    display: inline-block;
+}
+
+.steak & chips-ingridients label {
+    line-height: 25px;
+    margin-left: 10px;
+}
+
+/*=========== STRAWBERRY DAIQUIRI PAGE ==========*/
+
+.strawberry daiquiri {
+    padding-top: 50px;
+}
+
+/*===== STRAWBERRY DAIQUIRI DETAILS =====*/
+
+.strawberry daiquiri-details img {
+    width: 40%;
+}
+
+.strawberry daiquiri-details h1 {
+    font-size: 25px;
+    text-align: center;
+    border: 5px solid #1a1a1a;
+    margin: 10px;
+    padding: 5px;
+}
+
+.strawberry daiquiri-details h2 {
+    font-size: 20px;
+    text-align: center;
+    margin: 0;
+    margin-left: 10px;
+}
+
+.strawberry daiquiri-details-info {
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.strawberry daiquiri-details-info p {
+    font-size: 13px;
+    display: inline-block;
+}
+
+.strawberry daiquiri-ingridients label {
+    line-height: 25px;
+    margin-left: 10px;
+}
+
+/*=========== MOJITO PAGE ==========*/
+
+.mojito {
+    padding-top: 50px;
+}
+
+/*===== MOJITO DETAILS =====*/
+
+.mojito-details img {
+    width: 40%;
+}
+
+.mojito-details h1 {
+    font-size: 25px;
+    text-align: center;
+    border: 5px solid #1a1a1a;
+    margin: 10px;
+    padding: 5px;
+}
+
+.mojito-details h2 {
+    font-size: 20px;
+    text-align: center;
+    margin: 0;
+    margin-left: 10px;
+}
+
+.mojito-details-info {
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.mojito-details-info p {
+    font-size: 13px;
+    display: inline-block;
+}
+
+.mojito-ingridients label {
+    line-height: 25px;
+    margin-left: 10px;
+}
+
+/*=========== BLUE HAWAIIAN PAGE ==========*/
+
+.blue hawaiian {
+    padding-top: 50px;
+}
+
+/*===== BLUE HAWAIIAN DETAILS =====*/
+
+.blue hawaiian-details img {
+    width: 40%;
+}
+
+.blue hawaiian-details h1 {
+    font-size: 25px;
+    text-align: center;
+    border: 5px solid #1a1a1a;
+    margin: 10px;
+    padding: 5px;
+}
+
+.blue hawaiian-details h2 {
+    font-size: 20px;
+    text-align: center;
+    margin: 0;
+    margin-left: 10px;
+}
+
+.blue hawaiian-details-info {
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.blue hawaiian-details-info p {
+    font-size: 13px;
+    display: inline-block;
+}
+
+.blue hawaiian-ingridients label {
+    line-height: 25px;
+    margin-left: 10px;
+}
+
+/*=========== CARROT CAKE PAGE ==========*/
+
+.carrot cake {
+    padding-top: 50px;
+}
+
+/*===== CARROT CAKE DETAILS =====*/
+
+.carrot cake-details img {
+    width: 40%;
+}
+
+.carrot cake-details h1 {
+    font-size: 25px;
+    text-align: center;
+    border: 5px solid #1a1a1a;
+    margin: 10px;
+    padding: 5px;
+}
+
+.carrot cake-details h2 {
+    font-size: 20px;
+    text-align: center;
+    margin: 0;
+    margin-left: 10px;
+}
+
+.carrot cake-details-info {
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.carrot cake-details-info p {
+    font-size: 13px;
+    display: inline-block;
+}
+
+.carrot cake-ingridients label {
+    line-height: 25px;
+    margin-left: 10px;
+}
+
+
+/*=========== APPLE PIE PAGE ==========*/
+
+.apple pie {
+    padding-top: 50px;
+}
+
+/*===== APPLE PIE DETAILS =====*/
+
+.apple pie-details img {
+    width: 40%;
+}
+
+.apple pie-details h1 {
+    font-size: 25px;
+    text-align: center;
+    border: 5px solid #1a1a1a;
+    margin: 10px;
+    padding: 5px;
+}
+
+.apple pie-details h2 {
+    font-size: 20px;
+    text-align: center;
+    margin: 0;
+    margin-left: 10px;
+}
+
+.apple pie-details-info {
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.apple pie-details-info p {
+    font-size: 13px;
+    display: inline-block;
+}
+
+.apple pie-ingridients label {
+    line-height: 25px;
+    margin-left: 10px;
+}
+
+/*=========== MALVA PUDDING PAGE ==========*/
+
+.malva pudding {
+    padding-top: 50px;
+}
+
+/*===== MALVA PUDDING DETAILS =====*/
+
+.malva pudding-details img {
+    width: 40%;
+}
+
+.malva pudding-details h1 {
+    font-size: 25px;
+    text-align: center;
+    border: 5px solid #1a1a1a;
+    margin: 10px;
+    padding: 5px;
+}
+
+.malva pudding-details h2 {
+    font-size: 20px;
+    text-align: center;
+    margin: 0;
+    margin-left: 10px;
+}
+
+.malva pudding-details-info {
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.malva pudding-details-info p {
+    font-size: 13px;
+    display: inline-block;
+}
+
+.malva pudding-ingridients label {
+    line-height: 25px;
+    margin-left: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
